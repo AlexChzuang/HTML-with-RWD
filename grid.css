@@ -13,7 +13,7 @@
     background-color: rgb(233, 229, 229);
 }
 
-.row .intro {
+.row {
     display: flex;
     flex-wrap: wrap;
 }
@@ -21,7 +21,7 @@
 
 
 [class*="col"]:not([class*="row-col"]) {
-    padding: 0 15px;
+    padding: 10px 15px;
     box-sizing: border-box;
 }
 
@@ -51,6 +51,14 @@
     .col-md-10 { width: 83.333333%;}
     .col-md-11 { width: 91.66666%;}
     .col-md-12 { width: 100%;}
+
+    .contact_info {
+        width: 40%;
+    }
+      
+    .superlinks {
+        width: 60%;
+    }
 }
 
 @media screen and (min-width: 992px) {

@@ -1,3 +1,30 @@
+.container {
+  /* position: relative; */
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border: 1px solid black;
+  /* justify-content: space-between; */
+  font-size: 20px;
+  width: 100%;
+  align-items: center;
+}
+
+.top p {
+  text-align: left;
+}
+
+.top a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+
+
 
 .service h2, h4 {
 text-align: center;
@@ -14,23 +41,102 @@ margin-bottom: 20px;
   width: 100%;
 }
 
-.service .intro_value {
-  border: 1px solid red;
-  width: 400px;
-  margin: 20px;
+.row.intro {
+  justify-content: center;
 }
 
-.teacher .teacher_list {
+.service .intro_value {
+  border: 1px solid black;
+  margin: 20px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.teacher {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.teacher .teacher_title {
+  margin-bottom: 15px;
+}
+
+
+.teacher {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center
 }
 
-.teacher .teacher_intro {
-  border: 1px solid red;
-  width: 300px;
+.teacher .intro {
 }
 
-.teacher_intro img {
+.teacher .teacher {
+  border: 1px solid black;
+}
+
+.teacher_list img {
+  width: 100%;
+}
+
+.intro img {
+  width: 100%;
+}
+
+.press {
+  text-align: center;
+}
+
+.press_link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+  /* margin-left: 50px; */
+}
+
+.press_intro {
+  margin-bottom: 15px;
+}
+
+
+.lessons h2 {
+  text-align: left;
+}
+
+.lessons {
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.lessons .lesson_intro {
+  border: 1px solid rgb(38, 0, 255);
+}
+
+.lesson_intro img {
+  width: 100%;
+}
+
+.path_intro {
+  border: 1px solid black;
+}
+
+.path_intro img {
+  width: 100%;;
+}
+
+
+.sharing h2 {
+  text-align: center;
+}
+
+
+.articles {
+  text-align: center;
+}
+
+.posts img {
   width: 100%;
 }
 
@@ -41,8 +147,19 @@ margin-bottom: 20px;
 
 
 
+.about_us {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.about_us a {
+  font-size: 14.5px;
+  text-decoration: none;
+}
 
-.about_us .superlinks , .icons ul {
+
+
+.icons ul {
   justify-content: center;
 }
 
@@ -52,8 +169,7 @@ margin-bottom: 20px;
 }
 
 .superlinks .others {
-  border: 1px solid red;
-  margin: 5px;
+  width: 200px
 }
 
 .icons ul {
@@ -63,4 +179,16 @@ margin-bottom: 20px;
 
 .icons ul li {
   padding: 5px;
+}
+
+.icons img {
+  width: 100%;
+}
+
+
+.footer {
+  text-align: center;
+  background-color: #181E2D;
+  color: white;
+  width: 100%;
 }
