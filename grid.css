@@ -52,14 +52,10 @@
     .col-md-11 { width: 91.66666%;}
     .col-md-12 { width: 100%;}
 
-    .contact_info {
-        width: 40%;
+    .contact_info { width: 40%;}
+    .superlinks { width: 60%;}
+
     }
-      
-    .superlinks {
-        width: 60%;
-    }
-}
 
 @media screen and (min-width: 992px) {
     .col-lg-1 { width: 8.333333%; }
@@ -74,6 +70,32 @@
     .col-lg-10 { width: 83.333333%;}
     .col-lg-11 { width: 91.66666%;}
     .col-lg-12 { width: 100%;}
+
+    .container .menu_btn { 
+        display: none ;
+        position: relative;
+    }
+    .header { 
+        display: flex;
+        justify-content: space-between;
+    }
+    .header nav {
+        position: relative;
+        display: flex;
+        width: auto;
+        height: auto;
+        top: 0px;
+        background-color: transparent;
+    }
+
+    .header nav a {
+        vertical-align: middle;
+        padding: 15px;
+        padding-right: 25px;
+    }
+
+    .header nav a:hover {
+        color: #FF133E;
 }
 
 @media screen and (min-width: 1200px) {
